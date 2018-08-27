@@ -4,13 +4,16 @@
         "xiosbase": "cpp",
         "xstring": "cpp",
         "xutility": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "random": "cpp",
+        "vector": "cpp"
     },
     "code-runner.clearPreviousOutput": true,
     "code-runner.executorMap": {
         "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt -I  D:/Desktop/github/Cpp-Primer-5e-Answers/ch01 && $dir$fileNameWithoutExt && del $dir$fileNameWithoutExt.exe",
         
     },
-    "code-runner.runInTerminal": false,
+    "code-runner.runInTerminal": true,
     "code-runner.fileDirectoryAsCwd": true,
 }
